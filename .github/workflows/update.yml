@@ -3,7 +3,7 @@ name: Update Rain Watch Calendar
 on:
   schedule:
     # Every 6 hours. Edit the cron string to change frequency.
-    - cron: '0 */6 * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch: {}
 
 permissions:
