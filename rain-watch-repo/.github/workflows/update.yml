@@ -1,0 +1,31 @@
+name: Update Rain Watch Calendar
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      LAT: '41.2042'
+      LON: '-73.8862'
+      THRESHOLD: '40'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Generate ics
+        run: node scripts/generate.js
+      - name: Commit and push if changed
+        run: |
+          git config user.name "rain-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/rain-watch.ics
+          git diff --quiet --cached || git commit -m "Update rain forecast"
+          git push
