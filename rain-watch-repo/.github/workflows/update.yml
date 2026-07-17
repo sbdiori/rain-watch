@@ -8,16 +8,24 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     env:
       LAT: '41.2042'      # Croton-on-Hudson, NY — edit these two lines for your location
       LON: '-73.8862'
       THRESHOLD: '40'     # rain probability % that triggers an event
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: actions/setup-node@v4
         with:
@@ -33,3 +41,12 @@ jobs:
           git add docs/rain-watch.ics
           git diff --quiet --cached || git commit -m "Update rain forecast"
           git push
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
