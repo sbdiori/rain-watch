@@ -6,21 +6,39 @@ X-WR-CALNAME:Rain Watch
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:rainwatch-1785297600000-0@rainwatch.local
-DTSTAMP:20260729T041414Z
-DTSTART:20260729T040000Z
-DTEND:20260731T000000Z
-SUMMARY:Rain likely (97%)
-DESCRIPTION:Probability of precipitation reaches 97% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+UID:rainwatch-1785308400000-0@rainwatch.local
+DTSTAMP:20260729T074515Z
+DTSTART:20260729T070000Z
+DTEND:20260729T120000Z
+SUMMARY:Rain likely (79%)
+DESCRIPTION:Probability of precipitation reaches 79% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rainwatch-1785715200000-1@rainwatch.local
-DTSTAMP:20260729T041414Z
-DTSTART:20260803T000000Z
-DTEND:20260803T060000Z
-SUMMARY:Rain likely (47%)
-DESCRIPTION:Probability of precipitation reaches 47% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+UID:rainwatch-1785348000000-1@rainwatch.local
+DTSTAMP:20260729T074515Z
+DTSTART:20260729T180000Z
+DTEND:20260730T000000Z
+SUMMARY:Rain likely (67%)
+DESCRIPTION:Probability of precipitation reaches 67% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rainwatch-1785434400000-2@rainwatch.local
+DTSTAMP:20260729T074515Z
+DTSTART:20260730T180000Z
+DTEND:20260730T210000Z
+SUMMARY:Rain likely (56%)
+DESCRIPTION:Probability of precipitation reaches 56% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rainwatch-1785780000000-3@rainwatch.local
+DTSTAMP:20260729T074515Z
+DTSTART:20260803T180000Z
+DTEND:20260804T000000Z
+SUMMARY:Rain likely (49%)
+DESCRIPTION:Probability of precipitation reaches 49% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
