@@ -6,21 +6,39 @@ X-WR-CALNAME:Rain Watch
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:rainwatch-1786039200000-0@rainwatch.local
-DTSTAMP:20260805T174310Z
-DTSTART:20260806T180000Z
-DTEND:20260806T220000Z
-SUMMARY:Rain likely (46%)
-DESCRIPTION:Probability of precipitation reaches 46% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+UID:rainwatch-1785974400000-0@rainwatch.local
+DTSTAMP:20260805T194018Z
+DTSTART:20260806T000000Z
+DTEND:20260806T060000Z
+SUMMARY:Rain likely (40%)
+DESCRIPTION:Probability of precipitation reaches 40% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:rainwatch-1786125600000-1@rainwatch.local
-DTSTAMP:20260805T174310Z
+UID:rainwatch-1786050000000-1@rainwatch.local
+DTSTAMP:20260805T194018Z
+DTSTART:20260806T210000Z
+DTEND:20260807T000000Z
+SUMMARY:Rain likely (42%)
+DESCRIPTION:Probability of precipitation reaches 42% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rainwatch-1786125600000-2@rainwatch.local
+DTSTAMP:20260805T194018Z
 DTSTART:20260807T180000Z
-DTEND:20260808T000000Z
-SUMMARY:Rain likely (70%)
-DESCRIPTION:Probability of precipitation reaches 70% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+DTEND:20260808T060000Z
+SUMMARY:Rain likely (66%)
+DESCRIPTION:Probability of precipitation reaches 66% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rainwatch-1786471200000-3@rainwatch.local
+DTSTAMP:20260805T194018Z
+DTSTART:20260811T180000Z
+DTEND:20260812T000000Z
+SUMMARY:Rain likely (48%)
+DESCRIPTION:Probability of precipitation reaches 48% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
