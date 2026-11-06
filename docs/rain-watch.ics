@@ -6,21 +6,12 @@ X-WR-CALNAME:Rain Watch
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:rainwatch-1793941200000-0@rainwatch.local
-DTSTAMP:20261106T054637Z
-DTSTART:20261106T050000Z
+UID:rainwatch-1793970000000-0@rainwatch.local
+DTSTAMP:20261106T135657Z
+DTSTART:20261106T130000Z
 DTEND:20261106T210000Z
-SUMMARY:Rain likely (75%)
-DESCRIPTION:Probability of precipitation reaches 75% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:rainwatch-1794074400000-1@rainwatch.local
-DTSTAMP:20261106T054637Z
-DTSTART:20261107T180000Z
-DTEND:20261108T000000Z
-SUMMARY:Rain likely (49%)
-DESCRIPTION:Probability of precipitation reaches 49% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
+SUMMARY:Rain likely (91%)
+DESCRIPTION:Probability of precipitation reaches 91% (threshold 40%) for Croton-on-Hudson, NY. Source: National Weather Service hourly forecast.
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
